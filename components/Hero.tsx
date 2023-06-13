@@ -24,12 +24,12 @@ const Hero = (props: Props) => {
       behavior: "smooth",
     });
   };
-  const scrollToExperience = () => {
-    const contactSection = document.getElementById("experience");
-    contactSection?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+  // const scrollToExperience = () => {
+  //   const contactSection = document.getElementById("experience");
+  //   contactSection?.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   const scrollToProjects = () => {
     const contactSection = document.getElementById("projects");
     contactSection?.scrollIntoView({
@@ -66,9 +66,9 @@ const Hero = (props: Props) => {
             About
           </button>
 
-          <button className="heroButton" onClick={scrollToExperience}>
-            Experience
-          </button>
+          {/* <button className="heroButton" onClick={scrollToExperience}>
+            Experience  
+          </button> */}
 
           <button className="heroButton" onClick={scrollToSkills}>
             Skills

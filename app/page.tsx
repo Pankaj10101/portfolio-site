@@ -3,11 +3,12 @@
 import Hero from "@/components/Hero";
 import Header from "../components/Header";
 import About from "@/components/About";
-import WordExperience from "@/components/WordExperience";
+// import WordExperience from "@/components/WordExperience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
+import Eye from '../components/Eye'
 
 export default function Home() {
   const scrollToMain = () => {
@@ -26,9 +27,9 @@ export default function Home() {
       <section id="about" className="snap-center">
         <About />
       </section>
-      <section id="experience" className="snap-center">
+      {/* <section id="experience" className="snap-center">
         <WordExperience />
-      </section>
+      </section> */}
       <section id="skills" className="snap-start">
         <Skills />
       </section>
@@ -43,11 +44,7 @@ export default function Home() {
       <Link href="/" onClick={scrollToMain}>
         <div className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img
-              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="https://i.imgur.com/e2yvD6A.png"
-              alt=""
-            />
+            <Eye/>
           </div>
         </div>
       </Link>
