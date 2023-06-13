@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+// import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import {AiOutlinePhone} from 'react-icons/ai'
+import {FiMapPin} from 'react-icons/fi'
+import {BsFillEnvelopeFill} from 'react-icons/bs'
 import { useForm, SubmitHandler } from "react-hook-form";
 
 type Inputs = {
@@ -29,15 +32,15 @@ const ContactMe = (props: Props) => {
         </h4>
         <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <AiOutlinePhone className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+917508543249</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <FiMapPin className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">rkay1048@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <BsFillEnvelopeFill className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">Kharar, Mohali</p>
           </div>
         </div>
