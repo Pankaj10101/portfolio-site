@@ -25,23 +25,23 @@ const ContactMe = (props: Props) => {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-8 ">
-        <h4 className="text-2xl xl:text-4xl font-semibold text-center mt-5 flex flex-col xl:flex-row">
+      <div className="flex flex-col space-y-5">
+        <h4 className="text-xl xl:text-4xl font-semibold text-center mt-5 flex flex-col xl:flex-row">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
-        <div className="space-y-5">
+        <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
             <AiOutlinePhone className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+917508543249</p>
+            <p className="text-xl xl:text-2xl">+917508543249</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <FiMapPin className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">rkay1048@gmail.com</p>
+            <p className="text-xl xl:text-2xl">rkay1048@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <BsFillEnvelopeFill className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Kharar, Mohali</p>
+            <p className="text-xl xl:text-2xl">Kharar, Mohali</p>
           </div>
         </div>
 
