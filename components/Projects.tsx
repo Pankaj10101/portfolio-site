@@ -82,8 +82,8 @@ const Projects = (props: Props) => {
                 alt=""
               />
             </Link>
-            <div className="space-y-2 xl:space-y-5 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-3xl font-semibold text-center ">
+            <div className="space-y-3 xl:space-y-5 px-0 md:px-10 max-w-6xl">
+              <h4 className="text-2xl xl:text-3xl font-semibold text-center ">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {i + 1} of {projects.length}
                 </span>{" "}
@@ -94,7 +94,7 @@ const Projects = (props: Props) => {
                   project.techs.map((img, i) => (
                     <img
                       key={i}
-                      className="rounded-full border border-gray-500 object-cover w-12 h-12 md:w-12 md:h-12 xl:w-12 xl:h-12 filter group-hover:grayscale transition duration-300 ease-in-out"
+                      className="rounded-full border border-gray-500 object-cover w-8 h-8 md:w-12 md:h-12 xl:w-12 xl:h-12 filter group-hover:grayscale transition duration-300 ease-in-out"
                       src={img}
                     />
                   ))}
