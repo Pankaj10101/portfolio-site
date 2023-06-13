@@ -30,7 +30,7 @@ const Projects = (props: Props) => {
       img: "https://i.ibb.co/hfrTrqK/ecommerce-removebg-preview.png",
       name: "Full Stack Ecommerce Web App",
       link: "https://ecommercestoree.netlify.app/",
-      desc: `Introducing my exciting e-commerce project—a full-stack website built with React, Strapi, and SCSS. Explore, search, and add products to your cart effortlessly. Customize your order, securely checkout, and enjoy personalized user features powered by Firebase. With PostgreSQL managing the database and Cloudinary storing images, the website offers a seamless shopping experience. Integrated with Stripe, payments are smooth and hassle-free. Join the e-commerce adventure now and enjoy the convenience of online shopping!`,
+      desc: `A full-stack website built with React, Strapi, and SCSS. Explore, search, and add products to your cart effortlessly. Customize your order, securely checkout, and enjoy personalized user features powered by Firebase. With PostgreSQL managing the database and Cloudinary storing images, the website offers a seamless shopping experience. Integrated with Stripe, payments are smooth and hassle-free. Join the e-commerce adventure now and enjoy the convenience of online shopping!`,
       techs: [technologies.react, technologies.js, technologies.firebase, technologies.strapi, technologies.postgres],
     },
     {
@@ -82,7 +82,7 @@ const Projects = (props: Props) => {
                 alt=""
               />
             </Link>
-            <div className="space-y-5 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-2 xl:space-y-5 px-0 md:px-10 max-w-6xl">
               <h4 className="text-3xl font-semibold text-center ">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {i + 1} of {projects.length}
