@@ -50,7 +50,7 @@ const Projects = (props: Props) => {
       img: "https://i.ibb.co/SNdDgzd/Fire-Shot-Capture-001-Multi-Device-Website-Mockup-Generator-techsini-com-removebg-preview.png",
       name: "Expense Tracker",
       link: "https://expensesstrackerr.netlify.app/",
-      desc: `Behold, the remarkable expense tracker website I've crafted using React! Dive into a world of financial management where users can effortlessly add, delete, and update their expenses. With the power of Firebase, authentication is secure and seamless. All expenses are stored efficiently in the Firestore database, ensuring smooth data management. But wait, there's more! Users can also update their profile details and even download their expense records for a comprehensive overview. Join me on this journey towards financial organization and experience the convenience of tracking expenses like never before!`,
+      desc: `Behold, the remarkable expense tracker website I've crafted using React! Dive into a world of financial management where users can effortlessly add, delete, and update their expenses. With the power of Firebase, authentication is secure and seamless. All expenses are stored efficiently in the Firestore database, ensuring smooth data management. But wait, there's more! Users can also update their profile details and even download their expense records for a comprehensive overview.  `,
       techs: [technologies.react, technologies.js, technologies.firebase],
     },
   ];
@@ -61,14 +61,14 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 "
     >
-      <h3 className="absolute top-20 ml-6 uppercase tracking-[20px] text-gray-500 text-2xl xl:top-10">
+      <h3 className="absolute top-16 ml-6 uppercase tracking-[20px] text-gray-500 text-2xl xl:top-10">
         Projects
       </h3>
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 ">
         {projects.map((project, i) => (
           <div
             key={i}
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-9 md:p-44 h-screen z-50"
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-2 xl:p-8 md:p-44 h-screen z-50"
           >
             <Link href={project?.link} target="_blank">
               <motion.img

@@ -42,7 +42,7 @@ export default function Home() {
         </section>
       </section>
       <Link href="/" onClick={scrollToMain}>
-        <div className="sticky bottom-5 w-full cursor-pointer">
+        <div className="sticky bottom-10 xl:bottom-5  w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <Eye/>
           </div>

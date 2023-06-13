@@ -20,13 +20,13 @@ const ContactMe = (props: Props) => {
     window.location.href = `mailto:rkay1048@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
+    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row  px-10 justify-evenly mx-auto items-center">
+      <h3 className="absolute top-16 xl:top-20 uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-8">
-        <h4 className="text-3xl xl:text-4xl font-semibold text-center mt-5">
+      <div className="flex flex-col space-y-8 ">
+        <h4 className="text-2xl xl:text-4xl font-semibold text-center mt-5 flex flex-col xl:flex-row">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
@@ -47,9 +47,9 @@ const ContactMe = (props: Props) => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 mx-auto"
         >
-          <div className="flex space-x-2">
+          <div className="flex xl:space-x-2 space-y-2 xl:space-y-0 space-x-0 flex-col xl:flex-row">
             <input
               {...register("name")}
               className="contactInput"
@@ -76,7 +76,7 @@ const ContactMe = (props: Props) => {
           />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#F7AB0A] py-5 px-10  rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
