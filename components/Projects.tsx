@@ -36,7 +36,7 @@ const Projects = (props: Props) => {
     {
       img: "https://i.ibb.co/qNvtFr1/netflix-removebg-preview.png",
       name: "Netflix 2.0",
-      link: "https://netflix-3-sandy.vercel.app/",
+      link: "https://netflix-3-0.vercel.app/",
       desc: `A beautiful Netflix clone built using Next.js, React.js, and TypeScript! With the magic of the TMDB API, I've brought a vast collection of movies right to your fingertips. Feel the excitement as you log in and explore different movie sections, while Firebase takes care of the secure authentication process. But that's not all! Get ready to curate your own movie haven with the "My List" feature, where you can add and remove your favorite films. Join this thrilling adventure of movie magic and seamless browsing!`,
       techs: [
         technologies.next,
